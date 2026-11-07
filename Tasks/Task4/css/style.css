@@ -1,0 +1,125 @@
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+    border-top: 2px solid #5f6a4c;
+    border-right: 2px solid #5f6a4c ;
+    border-left: 2px solid #5f6a4c;
+    min-height: 600px;
+}
+.div1 {
+    background-color: #5f6a4c ;
+    color: black;
+    width: 20%;
+    min-height: 800px;
+    float: left;
+}
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+.li1 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.li2 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.li3 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.li4 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.li1:hover { 
+    border: #5f6a4c;
+    font-size: 25px;
+    background-color: #93a281;
+}
+    .li2:hover {
+        background-color:#93a281 ;
+        font-size: 25px;
+        border: #5f6a4c;
+}
+.li3:hover {
+    background-color: #93a281;
+    font-size: 25px;
+    border: #5f6a4c;
+}
+.li4:hover {
+    background-color:#93a281;
+    font-size: 25px;
+    border: #5f6a4c;
+}
+.h3 {
+        margin-left: 20px;
+        width: 75%;
+        border: 1px solid ;
+        float: left;
+        text-align: center;
+        height: 30px;
+        font-size: 25px;
+}
+.h3:hover {
+    background-color:#93a281;
+}
+input {
+    margin-left: 20px;
+    margin-right: 40px;
+    border: 1px solid#5f6a4c ;
+    width: 260px;
+    height: 33px;
+    font-size: 18px;
+}
+input:hover{
+    background-color:#93a281;
+}
+.lab1 {
+    margin-left: 20px;
+    font-size: 25px;
+}
+.sel1 {
+    margin-left: 10px;
+    width: 90px;
+    border: 1px solid ;
+    text-align: center;
+    height: 20px;
+    font-size: 17px;
+}
+.tex1 {
+    margin-left: 20px;
+    border: 1px solid ;
+    font-size: 15px;
+    
+}
+.inp1 {
+    margin-left: 20px; 
+    border: 1px solid ;
+    height: 35px;
+    width: 370px;
+    font-size: 18px;
+}
+button {
+    margin-left: 30%;
+    border: 1px solid ;
+    height: 37px;
+    width: 190px;
+    background-color: #93a281; 
+    font-size: 20px;
+
+}
+button:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 25px;
+}
+a {
+    color:rgb(31, 30, 30);
+}
+
+.p1 {
+    font-size: 25px;
+    margin-left: 15px;
+}

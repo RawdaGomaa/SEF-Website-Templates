@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 120vh;
+}
+.overlay {
+    background-color: rgba(0, 0,0, 0.5);
+    height: 120vh;
+}
+.left{
+    float: left;
+    
+}
+
+.div1 img ,.div2 img,.div3 img , .div4 img {
+    width: 150px;
+    height: 70px;
+    left: 20px;
+    animation-name:change ;
+    animation-duration: 3s;
+    position: absolute;
+  /* animation-iteration-count: infinite;*/
+    animation-fill-mode: forwards;
+    /*animation-fill-mode: backwards; لا يراعي الdelay فى الوضع النهائى*/
+
+}
+ .div4 img:hover {
+    animation-play-state: paused; /* default running*/
+} 
+.div1 img {
+    top:50px
+}
+.div2 img {
+    top :230px;
+   animation-delay:6s;
+}
+.div3 img {
+    top:400px;
+    animation-delay: 12s;
+}
+.div4 img {
+    top:555px;
+    animation-delay: 18s;
+}
+@keyframes change{
+    0% {
+     
+    }
+    50% {
+    
+    }
+    100% {
+    left: 1200px;
+    }
+}
+
+.right {
+    float: right;
+   }
+
+.div5 img ,.div6 img,.div7 img ,.div8 img{
+    width: 150px;
+    height: 70px;
+    right: 20px;
+    animation-name:changes ;
+    animation-duration: 3s;
+    position: absolute;
+    animation-fill-mode: forwards;
+
+}
+.div5 img {
+    top: 150px;
+    animation-delay:3s;
+}
+.div6 img {
+    top: 315px;
+    animation-delay: 9s;
+}
+.div7 img {
+    top:475px;
+    animation-delay: 15s;
+}.div8 img {
+    top: 640px;
+    animation-delay: 21s;
+}
+@keyframes changes{
+    0% {
+     
+    }
+    50% {
+   
+    }
+    100% {
+    right: 1200px;
+    }
+}
